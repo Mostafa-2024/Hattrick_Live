@@ -1,0 +1,30 @@
+.league-item {
+  display: flex;
+  gap:20px;
+  align-items: center;
+  background-color: #ECEEF2;
+  
+}
+html[data-bs-theme="dark"] .league-item {
+  background-color: #212529 !important;
+  color: var(--bs-heading-color) !important;
+}
+.league-item img {
+  height: 50px;
+}
+.league-item .title {
+  color: rgba(0, 0, 0, 0.800);
+  text-decoration: none;
+  transition: .2s
+}
+.league-item .title:hover {
+  color: rgba(0, 0, 255, 0.63)
+}
+.league-item button {
+  padding: 3px 8px 7px;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--main-color);
+  border: none;
+  font-weight: 500
+}

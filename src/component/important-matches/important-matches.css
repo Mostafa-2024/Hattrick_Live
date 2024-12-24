@@ -1,0 +1,49 @@
+.important-matches .heading {
+  font-size: 30px;
+  margin-bottom: 25px
+}
+.important-matches .content {
+  background-color: #F9F9F9;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.120);
+}
+html[data-bs-theme="dark"] .important-matches .content {
+  background-color: #212529 !important;
+  color: var(--bs-heading-color) !important;
+}
+.important-matches .content p {
+  color: #4b4a4a;
+  font-size: 15px;
+  line-height: 1.7;
+}
+html[data-bs-theme="dark"] .important-matches .content p {
+  background-color: #212529 !important;
+  color: var(--bs-heading-color) !important;
+}
+.important-matches table {
+  border: 1px solid #DEE2E6;
+  border-collapse: collapse;
+}
+.important-matches table thead tr {
+  background-color: #F9F9F9 !important
+}
+.important-matches table tr:nth-child(odd) {
+  background-color: #FFFFFF
+}
+html[data-bs-theme="dark"] .important-matches table tr {
+  background-color: #212529 !important;
+  color: var(--bs-heading-color) !important;
+}
+.important-matches table th {
+  font-size:  17px
+}
+.important-matches table th,
+.important-matches table td {
+  width: 400px;
+  border: 1px solid #DEE2E6;
+  text-align: center;
+  padding: 5px
+}
+.important-matches table td {
+  font-size: 16px
+}
+

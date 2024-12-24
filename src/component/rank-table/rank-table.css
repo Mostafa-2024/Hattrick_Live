@@ -1,0 +1,23 @@
+.table-rank {
+  background-color: #FFF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+  margin-top: 40px
+}
+html[data-bs-theme="dark"] .table-rank {
+  background-color: #333333 !important;
+  color: var(--bs-heading-color) !important;
+}
+.table-rank h3 {
+  padding: 16px 15px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ECEEF2;
+}
+html[data-bs-theme="dark"] .table-rank h3 {
+  background-color: #212529 !important;
+  color: var(--bs-heading-color) !important;
+}
+.table-rank h3 span {
+  background-color: #474747;
+  padding: 3px 8px 9px;
+}

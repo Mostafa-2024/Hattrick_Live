@@ -1,0 +1,27 @@
+.about-us {
+  line-height: 2
+}
+.about-us h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 47px;
+  color: #383737
+}
+html[data-bs-theme="dark"] .about-us h2 {
+  color: var(--bs-heading-color);
+}
+.about-us p {
+  color: #3a3a3a
+}
+html[data-bs-theme="dark"] .about-us p {
+  color: var(--bs-heading-color);
+}
+.about-us h3 {
+  text-align: center;
+  margin: 70px 0 10px;
+  font-size: 25px;
+  color: #363636;
+}
+html[data-bs-theme="dark"] .about-us h3 {
+  color: var(--bs-heading-color);
+}

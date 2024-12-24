@@ -1,0 +1,19 @@
+.privacy-policy {
+  line-height: 2
+}
+
+.privacy-policy h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 50px;
+  color: #383737
+}
+html[data-bs-theme="dark"] .privacy-policy h2 {
+  color: var(--bs-heading-color);
+}
+.privacy-policy p {
+  color: #3a3a3a
+}
+html[data-bs-theme="dark"] .privacy-policy p {
+  color: var(--bs-heading-color);
+}
