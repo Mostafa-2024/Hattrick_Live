@@ -4,7 +4,7 @@ import { router } from './routes/router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./main.css"
 import { Provider } from 'react-redux'
-import { store } from './store/Store'
+import { store } from './store/store'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
